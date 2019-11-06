@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/background"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/artb" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10pt"
+            android:text="Welcome !"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_marginLeft="14dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/emailLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10pt"
+            android:text="Email"
+            android:textColor="@color/black"
+            android:layout_marginLeft="14dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="330dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FFFFFF"
+                android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/passLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2pt"
+            android:layout_marginLeft="14dp"
+            android:textColor="@color/black"
+            android:text="Password"
+            android:layout_marginBottom="10dp"
+            android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="330dp"
+                android:layout_height="35dp"
+                android:layout_marginBottom="10dp"
+                android:background="#FFFFFF"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/txt_lupa"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2pt"
+                android:layout_marginLeft="80dp"
+                android:gravity="center"
+                android:text="Lupa password? Klik"
+                android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="#000000"
+            android:textSize="18sp"
+            android:text="LOGIN"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/txt_signup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:gravity="center"
+            android:text="Belum punya akun? Sign up"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
